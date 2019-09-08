@@ -11,7 +11,7 @@ body{
     width: 500px;
     height: 600px;
     margin: 40px auto 56px;
-    padding 50px;
+    padding 20px;
     box-sizing:border-box;
     background: url(../img/brewster_new.jpg);
     -webkit-border-radius: 25px;
@@ -24,8 +24,8 @@ body{
 header h1 {
     width: 300px;
     height: 20px;
-    padding: 30px 0 30px;
-    margin: 0px auto 30px;
+    padding: 20px 0 30px;
+    margin: 0px auto 50px;
     border-bottom: solid 1px darkgray;
     text-align: center;
 }
@@ -33,30 +33,39 @@ header h1 {
     padding: 10px 0 10px;
 }
 #billamount {
-    width: 80px;  
+    width: 90px;  
+    height: 20px;
     padding: 3px 7px;
-    margin: 10px auto;
+    margin: 5px 0 5px
 }
-#label_2 {
-    padding: 10px 0 10px;
+#dollar-dox{
     display: block;
 }
-#serviceQuality {
-    margin: 10px 0px;
-    padding: 10px;
+#label_2 {
+    padding: 11px 0 7px;
+    display: block;
 }
-
+select {
+    text-align: center;
+    display: block;
+    width: 180px;
+    padding: 2px 8px;
+    margin: 2px;
+}
 #label_3 {
-    padding: 10px 0 10px;
-        display: block;
+    margin-top: 7px;
+    padding: 11px 0 7px;
+    display: block;
 }
 #totalpeople{
-    margin: 0px 10px 10px;
-    width:80px
+    margin: 5px 8px 5px 0px;
+    width: 90px;
+    height: 20px;
+    padding: 3px 7px;
 }
 
 footer{
-    margin: 20px 0px 20px;
+    margin: 50px 0px 20px;
     padding: 10px;
     text-align: center;
 }
@@ -67,8 +76,7 @@ footer{
     color: white;
     border-bottom: solid 4px #222;
     font-size: 18px;
-    padding: 20px 30px;
-    line-height: 7px;
+    margin: 10px 0 0px ;
 }
 #calculate:hover{
     background: #4c2827;
@@ -80,7 +88,7 @@ footer{
 }
 #totlatip{
     font-size: 50px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 #totlatip:before{
     content: "Tip amount";
