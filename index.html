@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Tip Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize_style.css">
+    <!--[if IE]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Tip Calculator</h1>
+		</header>
+		<section>
+			<label>
+				How much was your bill ?<br>
+				$
+			</label>
+			<input type="text" name="" id="billamount">
+			<label>
+				How was your service ?
+			</label>
+			<select id="serviceQuality ">
+				<option disabled="" selected="" value="0">--choose a option</option>
+				<option value="0.3">30% - Oustanding</option>
+				<option value="0.2">20% - Good</option>
+				<option value="0.15">15% - it was okay</option>
+				<option value="0.1">10% - bad</option>
+				<option value="0.05">5% - Terrible</option>
+			</select><!--serviceQuality-->
+			<label>
+				how many people are sharing the bill ?
+			</label>
+			<input type="text" name="" id="totalpeople">people
+			<footer>
+				<button type="button" id="calculate">Calculate !</button>
+				<div id="totlatip">
+					<sup>$</sup><span id="Tip">0.00</span>
+					<small id="each">each</small>
+				</div><!--totlatip-->
+			</footer>
+		</section>
+	</div><!--#container-->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
