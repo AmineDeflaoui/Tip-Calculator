@@ -7,6 +7,9 @@ body{
     font-size: 17px;
     font-weight: bold;
 }
+body{
+    
+}
 #container{
     width: 500px;
     height: 600px;
@@ -76,14 +79,15 @@ footer{
     color: white;
     border-bottom: solid 4px #222;
     font-size: 18px;
-    margin: 10px 0 0px ;
+    margin: 10px 0 0px;
+    opacity: 1;
 }
 #calculate:hover{
     background: #4c2827;
     border-bottom-color: #111; 
 }
 #calculate:active{
-   position: relative;
+    position: relative;
     top: 1px;
 }
 #totlatip{
