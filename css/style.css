@@ -7,9 +7,6 @@ body{
     font-size: 17px;
     font-weight: bold;
 }
-body{
-    
-}
 #container{
     width: 500px;
     height: 600px;
@@ -35,7 +32,7 @@ header h1 {
 #label_1 {
     padding: 10px 0 10px;
 }
-#billamount {
+#billAmount {
     width: 90px;  
     height: 20px;
     padding: 3px 7px;
@@ -60,13 +57,12 @@ select {
     padding: 11px 0 7px;
     display: block;
 }
-#totalpeople{
+#totalPeople{
     margin: 5px 8px 5px 0px;
     width: 90px;
     height: 20px;
     padding: 3px 7px;
 }
-
 footer{
     margin: 50px 0px 20px;
     padding: 10px;
@@ -90,22 +86,22 @@ footer{
     position: relative;
     top: 1px;
 }
-#totlatip{
+#totalTip{
     font-size: 50px;
     margin-top: 20px;
 }
-#totlatip:before{
+#totalTip:before{
     content: "Tip amount";
     font-size: 14px;
     font-weight: bold;
     display: block;
     text-transform: uppercase;
 }
-#totlatip sup {
+#totalTip sup {
     font-size: 24px;
     top: -18px;
 }
-#totlatip small {
+#totalTip small {
     font-size: 14px;
     font-weight: bold;
     display: block;
